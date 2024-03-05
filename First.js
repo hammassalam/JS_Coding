@@ -84,4 +84,4 @@ console.log (sumOffour)
 
 let sumOfthree = 5 + 4 + '6' + 9 + 10
 console.log(sumOfthree)
-
+console.log(sumOfthree)
