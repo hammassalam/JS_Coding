@@ -1,0 +1,119 @@
+// Boolean, ++, --, !==, ===,==, !=  datatype
+// ++ and -- are unary operators used to increment or decreent the value by 1 each time
+
+
+// Relational operators ===, ==
+// logical operatora And Or Not || &&
+//  if and else (always work with true or false)
+
+
+
+//Two main types of Datatypes: Primitive and Object 
+// Primitive: string, number, boolean, null, undifined
+//Boolean is another dataype used for true and false conditions
+
+//Relational operators are used to compare two values and return a boolean result (true or false) based on the comparison. 
+//Relational operators include >, <, >=, <=, ==, and !=.
+//Logical operators are used to combine multiple conditions or values and return a boolean result. 
+//logical operators in JavaScript are && (AND), || (OR), and ! (NOT).
+
+let compareNumbers = 4<8
+console.log(compareNumbers)      //OUTPUT: true
+compareNumbers= 8>10
+console.log(compareNumbers)     //OUTPUT: false
+
+let city1= 'London'
+let city2= 'Morrisville'
+console.log(city1 === city2)    //OUTPUT: false
+
+console.log(city1 != city2)    //OUTPUT: true
+
+let numb1= 10, numb2= 20, numb3= 30
+console.log(numb1 != numb2 && numb3 < numb2)  //OUTPUT: false since one of them is false
+console.log (numb2>= numb1 || numb3 === numb2)  //OUTPUT: true since one of them is true 
+
+
+
+let highScore = 100
+
+highScore++
+console.log(highScore)    //OUTPUT: 101 since incrementing by 1 
+
+highScore--
+console.log(highScore)    //OUTPUT: 100 idk why  *******
+
+console.log('*******')
+highScore = 500;
+console.log (highScore)   //OUTPUT: 500
+//incrementing by 2
+highScore +=2
+console.log (highScore)  //OUTPUT: 502
+//decrementing by 5
+highScore-=5
+console.log (highScore)  //OUTPUT: 497
+highScore-=5
+console.log (highScore)  //OUTPUT: 497
+console.log('******')
+
+
+
+let noOfsales = '50' + 25
+console.log(noOfsales)
+console.log (noOfsales + ' data type of no.ofsales is: ' + typeof noOfsales)    //  Output: 5025 data type of no.ofsales is: string | or number if no quotes
+
+
+let checkBoolean = true
+if (checkBoolean){
+    console.log ('TRUE')
+} else {                     //OUTPUT: TRUE
+    console.log('FALSE')
+}
+checkBoolean = false
+if (checkBoolean) {
+    console.log('TRUE')      //OUTPUT: FALSE
+} else {
+    console.log('FALSE')
+}
+
+// EXAMPLE OF A null statement 
+
+let myNullvariable = null
+console.log(myNullvariable)      //OUTPUT: null
+
+
+// EXAMPLE OF A undefined variable
+let undefinedVery
+console.log(undefinedVery);      //OUTPUT: undifined
+
+
+
+if ((8-5) ===2)
+console.log('This equation is correct')
+
+
+if (8 === 8 && 9>6) {
+    console.log ('Both conditions are true')
+} else {
+    console.log ('one or Both conditions are false')
+}
+
+
+
+if (8 === 8 || 9<6) {
+    console.log ('one / Both conditions are true')
+} else {
+    console.log ('one / Both conditions are false')
+}
+
+ 
+ if (34>40 || 50<100) {
+    console.log ('Conditions are true')
+ } else if (4 !== 4){
+    console.log (' Line 21 will be printed')
+ } else if (20 * 20 === 100) {
+    console.log('Line 23 will be printed')
+ } else {
+    console.log ('none of the conditions are true')
+ }
+
+
